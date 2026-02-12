@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <h3 className="font-heading text-2xl font-bold text-cream mb-4">
-              Indiana <span className="text-accent">Tanger</span>
+              Indiana <span className="text-accent">Decor</span>
             </h3>
             <p className="text-cream/60 leading-relaxed text-sm">
               Spécialiste de la décoration et l'aménagement intérieur à Tanger.

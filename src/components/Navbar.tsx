@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.jpg";
 
 const navItems = [
   { label: "Accueil", href: "#accueil" },
@@ -32,10 +33,10 @@ const Navbar = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between">
-        <a href="#accueil" className="font-heading text-2xl md:text-3xl font-bold tracking-tight">
-          <span className="text-primary">Indiana</span>
-          <span className={`${isScrolled ? "text-foreground" : "text-primary-foreground"} transition-colors duration-500`}>
-            {" "}Tanger
+        <a href="#accueil" className="flex items-center gap-3">
+          <img src={logo} alt="Indiana Decor" className="h-10 md:h-12 w-auto" />
+          <span className={`font-heading text-xl md:text-2xl font-bold tracking-tight ${isScrolled ? "text-foreground" : "text-primary-foreground"} transition-colors duration-500`}>
+            Indiana <span className="text-accent">Decor</span>
           </span>
         </a>
 
