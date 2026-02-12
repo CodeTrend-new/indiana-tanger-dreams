@@ -29,7 +29,7 @@ const Gallery = () => {
       : projects.filter((p) => p.category === activeCategory);
 
   return (
-    <section id="realisations" className="section-padding bg-muted/50" ref={ref}>
+    <section id="realisations" className="section-padding bg-muted/60 backdrop-blur-sm" ref={ref}>
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <motion.div

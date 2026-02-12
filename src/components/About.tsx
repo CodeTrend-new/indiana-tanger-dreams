@@ -14,7 +14,7 @@ const About = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="apropos" className="section-padding bg-background" ref={ref}>
+    <section id="apropos" className="section-padding bg-background/80 backdrop-blur-sm" ref={ref}>
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Left Content */}
