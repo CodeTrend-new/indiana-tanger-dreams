@@ -47,7 +47,7 @@ const Services = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="services" className="section-padding bg-background" ref={ref}>
+    <section id="services" className="section-padding bg-background/80 backdrop-blur-sm" ref={ref}>
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <motion.div

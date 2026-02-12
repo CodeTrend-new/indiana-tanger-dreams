@@ -7,7 +7,7 @@ const Contact = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="contact" className="section-padding bg-muted/50" ref={ref}>
+    <section id="contact" className="section-padding bg-muted/60 backdrop-blur-sm" ref={ref}>
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
